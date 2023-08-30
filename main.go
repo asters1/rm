@@ -69,7 +69,7 @@ func main() {
 		// fmt.Println(i)
 		view(os.Args[i])
 	}
-	fmt.Print("\n确定删除以上文件吗 [yn]? ")
+	fmt.Print("\n\n确定删除以上文件吗 [yn]? ")
 	yorn := ""
 	fmt.Scan(&yorn)
 	if yorn == "y" || yorn == "Y" {
